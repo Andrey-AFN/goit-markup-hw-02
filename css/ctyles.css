@@ -2,7 +2,7 @@
     --primary-text-color:#2E2F42;
     --title-text-color:#434455;
     --accent-color:#4D5AE5;
-    --white-color:#E5E5E5;
+    --white-color:#ffffff;
     --button-background:#F4F4FD;
 }
 
@@ -10,11 +10,17 @@
 /* вторичный цвет текста #434455 */
 body {
     color:var(--primary-text-color);
-    background:var(--white-color);
+    background-color:var(--white-color);
     font-family: Roboto, sans-serif;
+    font-size: 16px;
 }
 
-button {
+.link, .list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.button {
     font-family: inherit;
 }
 
@@ -25,15 +31,11 @@ button {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    text-transform: uppercase;
 }
 
 span {
     color: var(--accent-color);
-    font-family: Raleway;
-    letter-spacing: 0.03em;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
 }
 
 .logo:hover, 
@@ -41,67 +43,74 @@ span {
     color: var(--accent-color);
 }
 
-.navigation-start {
+.nav.link {
     color: var(--primary-text-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.75;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.navigation-start:hover, 
-.navigation-start:focus {
+.nav.link:hover, 
+.nav.link:focus {
     color: var(--accent-color);
 }
 
-.adressat-continue {
+.adressat.link {
     color: var(--title-text-color);
-    font-size: 16px;
-    line-height: 1.75;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
-.adressat-continue:hover, 
-.adressat-continue:focus {
+.adressat.link:hover, 
+.adressat.link:focus {
     color: var(--accent-color);
 }
 
-h2 {
+.portfplio-title {
     color:var(--title-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.75x;
+    line-height: 24px;
+    line-height: 1.2x;
     letter-spacing: 0.02em;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.75;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-ul {
-    list-style: none;
 }
 
 .button {
     color: var(--accent-color);
     background: var(--button-background);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.75;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
 
-button:hover, 
-button:focus {
+.button:hover, 
+.button:focus {
     color: var(--white-color);
     background: var(--accent-color);
 }
 
 .end {
-    font-size: 16px;
-    line-height: 1.75;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
 }
 
+.hero-button {
+    font-weight: 500;
+    line-height: 1.5px;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
