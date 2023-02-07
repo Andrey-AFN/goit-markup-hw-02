@@ -24,6 +24,20 @@ body {
     font-family: inherit;
 }
 
+.button {
+    color: var(--accent-color);
+    background: var(--button-background);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button:hover, 
+.button:focus {
+    color: var(--white-color);
+    background: var(--accent-color);
+}
+
 .logo {
     color: var(--primary-text-color);
     font-family: Raleway;
@@ -67,39 +81,6 @@ span {
     color: var(--accent-color);
 }
 
-.portfplio-title {
-    color:var(--title-text-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    line-height: 1.2x;
-    letter-spacing: 0.02em;
-}
-
-p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.button {
-    color: var(--accent-color);
-    background: var(--button-background);
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
-
-.button:hover, 
-.button:focus {
-    color: var(--white-color);
-    background: var(--accent-color);
-}
-
-.end {
-    line-height: 1.5;
-    letter-spacing: 0.02em;    
-}
-
 .hero {
     font-weight: 700;
     font-size: 56px;
@@ -108,9 +89,31 @@ p {
     letter-spacing: 0.02em;
 }
 
-.hero-button {
+
+.portfplio-title link {
+    color:var(--title-text-color);
     font-weight: 500;
-    line-height: 1.5px;
-    align-items: center;
-    letter-spacing: 0.04em;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2x;
+    letter-spacing: 0.02em;
+}
+
+.page-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.end {
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+
+.subheader {
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2x;
+    letter-spacing: 0.02em;   
 }
