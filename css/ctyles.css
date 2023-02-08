@@ -39,6 +39,16 @@ body {
     cursor: pointer;
 }
 
+.title-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.title-button:hover,
+.title-button:focus {
+    cursor: pointer;
+}
+
 .logo {
     color: var(--primary-text-color);
     font-family: Raleway;
@@ -83,6 +93,11 @@ span {
 }
 
 .hero {
+    background-color: var(--primary-text-color);
+}
+
+.hero-title {
+    color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -100,21 +115,33 @@ span {
     letter-spacing: 0.02em;
 }
 
-.page-text {
+.section-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.end {
+.footer-text {
+    color: var(--white-color);
     line-height: 1.5;
     letter-spacing: 0.02em;    
 }
 
-.subheader {
+.section-subtitle {
     color:var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     line-height: 1.2x;
     letter-spacing: 0.02em;   
+}
+
+.section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--primary-text-color);
 }
