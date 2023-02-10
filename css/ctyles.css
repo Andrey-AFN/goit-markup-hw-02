@@ -63,11 +63,6 @@ span {
     color: var(--accent-color);
 }
 
-.logo:hover, 
-.logo:focus {
-    color: var(--accent-color);
-}
-
 .nav.link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -98,7 +93,6 @@ span {
 
 .hero-title {
     color: var(--white-color);
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -111,7 +105,7 @@ span {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -130,13 +124,12 @@ span {
     color:var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.02em;   
 }
 
 .section-title {
     color: var(--primary-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -144,4 +137,8 @@ span {
 
 .footer {
     background-color: var(--primary-text-color);
+}
+
+.logo-footer, link {
+    color: var(--white-color) 
 }
